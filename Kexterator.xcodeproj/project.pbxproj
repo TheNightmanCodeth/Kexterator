@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85812A2229C9846001E23AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D85812A1229C9846001E23AC /* AppDelegate.m */; };
+		D85812A5229C9846001E23AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85812A4229C9846001E23AC /* ViewController.m */; };
+		D85812A7229C9847001E23AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85812A6229C9847001E23AC /* Assets.xcassets */; };
+		D85812AA229C9847001E23AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85812A8229C9847001E23AC /* Main.storyboard */; };
+		D85812AD229C9847001E23AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D85812AC229C9847001E23AC /* main.m */; };
+		D85812B8229C9847001E23AC /* KexteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D85812B7229C9847001E23AC /* KexteratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85812B4229C9847001E23AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8581295229C9846001E23AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D858129C229C9846001E23AC;
+			remoteInfo = Kexterator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D858129D229C9846001E23AC /* Kexterator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kexterator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85812A0229C9846001E23AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D85812A1229C9846001E23AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D85812A3229C9846001E23AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D85812A4229C9846001E23AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D85812A6229C9847001E23AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85812A9229C9847001E23AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85812AB229C9847001E23AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85812AC229C9847001E23AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D85812AE229C9847001E23AC /* Kexterator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kexterator.entitlements; sourceTree = "<group>"; };
+		D85812B3229C9847001E23AC /* KexteratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KexteratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85812B7229C9847001E23AC /* KexteratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KexteratorTests.m; sourceTree = "<group>"; };
+		D85812B9229C9847001E23AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D858129A229C9846001E23AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85812B0229C9847001E23AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8581294229C9846001E23AC = {
+			isa = PBXGroup;
+			children = (
+				D858129F229C9846001E23AC /* Kexterator */,
+				D85812B6229C9847001E23AC /* KexteratorTests */,
+				D858129E229C9846001E23AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D858129E229C9846001E23AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D858129D229C9846001E23AC /* Kexterator.app */,
+				D85812B3229C9847001E23AC /* KexteratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D858129F229C9846001E23AC /* Kexterator */ = {
+			isa = PBXGroup;
+			children = (
+				D85812A0229C9846001E23AC /* AppDelegate.h */,
+				D85812A1229C9846001E23AC /* AppDelegate.m */,
+				D85812A3229C9846001E23AC /* ViewController.h */,
+				D85812A4229C9846001E23AC /* ViewController.m */,
+				D85812A6229C9847001E23AC /* Assets.xcassets */,
+				D85812A8229C9847001E23AC /* Main.storyboard */,
+				D85812AB229C9847001E23AC /* Info.plist */,
+				D85812AC229C9847001E23AC /* main.m */,
+				D85812AE229C9847001E23AC /* Kexterator.entitlements */,
+			);
+			path = Kexterator;
+			sourceTree = "<group>";
+		};
+		D85812B6229C9847001E23AC /* KexteratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85812B7229C9847001E23AC /* KexteratorTests.m */,
+				D85812B9229C9847001E23AC /* Info.plist */,
+			);
+			path = KexteratorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D858129C229C9846001E23AC /* Kexterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85812BC229C9847001E23AC /* Build configuration list for PBXNativeTarget "Kexterator" */;
+			buildPhases = (
+				D8581299229C9846001E23AC /* Sources */,
+				D858129A229C9846001E23AC /* Frameworks */,
+				D858129B229C9846001E23AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kexterator;
+			productName = Kexterator;
+			productReference = D858129D229C9846001E23AC /* Kexterator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85812B2229C9847001E23AC /* KexteratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85812BF229C9847001E23AC /* Build configuration list for PBXNativeTarget "KexteratorTests" */;
+			buildPhases = (
+				D85812AF229C9847001E23AC /* Sources */,
+				D85812B0229C9847001E23AC /* Frameworks */,
+				D85812B1229C9847001E23AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85812B5229C9847001E23AC /* PBXTargetDependency */,
+			);
+			name = KexteratorTests;
+			productName = KexteratorTests;
+			productReference = D85812B3229C9847001E23AC /* KexteratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8581295229C9846001E23AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TheNightmanCodeth;
+				TargetAttributes = {
+					D858129C229C9846001E23AC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					D85812B2229C9847001E23AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D858129C229C9846001E23AC;
+					};
+				};
+			};
+			buildConfigurationList = D8581298229C9846001E23AC /* Build configuration list for PBXProject "Kexterator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8581294229C9846001E23AC;
+			productRefGroup = D858129E229C9846001E23AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D858129C229C9846001E23AC /* Kexterator */,
+				D85812B2229C9847001E23AC /* KexteratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D858129B229C9846001E23AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85812A7229C9847001E23AC /* Assets.xcassets in Resources */,
+				D85812AA229C9847001E23AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85812B1229C9847001E23AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8581299229C9846001E23AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85812A5229C9846001E23AC /* ViewController.m in Sources */,
+				D85812AD229C9847001E23AC /* main.m in Sources */,
+				D85812A2229C9846001E23AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85812AF229C9847001E23AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85812B8229C9847001E23AC /* KexteratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85812B5229C9847001E23AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D858129C229C9846001E23AC /* Kexterator */;
+			targetProxy = D85812B4229C9847001E23AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85812A8229C9847001E23AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85812A9229C9847001E23AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85812BA229C9847001E23AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D85812BB229C9847001E23AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D85812BD229C9847001E23AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kexterator/Kexterator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Y5BBJ48;
+				INFOPLIST_FILE = Kexterator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.Kexterator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D85812BE229C9847001E23AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kexterator/Kexterator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Y5BBJ48;
+				INFOPLIST_FILE = Kexterator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.Kexterator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D85812C0229C9847001E23AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Y5BBJ48;
+				INFOPLIST_FILE = KexteratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.KexteratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kexterator.app/Contents/MacOS/Kexterator";
+			};
+			name = Debug;
+		};
+		D85812C1229C9847001E23AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D44Y5BBJ48;
+				INFOPLIST_FILE = KexteratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.KexteratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kexterator.app/Contents/MacOS/Kexterator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8581298229C9846001E23AC /* Build configuration list for PBXProject "Kexterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85812BA229C9847001E23AC /* Debug */,
+				D85812BB229C9847001E23AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85812BC229C9847001E23AC /* Build configuration list for PBXNativeTarget "Kexterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85812BD229C9847001E23AC /* Debug */,
+				D85812BE229C9847001E23AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85812BF229C9847001E23AC /* Build configuration list for PBXNativeTarget "KexteratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85812C0229C9847001E23AC /* Debug */,
+				D85812C1229C9847001E23AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8581295229C9846001E23AC /* Project object */;
+}
